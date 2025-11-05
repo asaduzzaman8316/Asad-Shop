@@ -6,11 +6,12 @@ import NavBar from "./NavBar";
 
 function Header() {
   return (
-    <div>
+    <div className="relative">
       <HeaderTop />
       <HeaderItem />
-      <NavBar/>
+      <NavBar />
     </div>
+
   )
 }
 

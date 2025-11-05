@@ -11,7 +11,7 @@ function HeaderItem() {
     return (
         <div className="2xl:container lg:w[80%] mx-auto py-8 flex justify-between items-center">
             <div className="w-50">
-                <img src="/logo (1).svg" alt="" />
+                <img src="/logo.svg" alt="" />
             </div>
             <div className="w-150">
                 <Search />

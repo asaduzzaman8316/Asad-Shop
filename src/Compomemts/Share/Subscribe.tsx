@@ -1,16 +1,18 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 AOS.init()
-function SubScribe({src}:{src:string}) {
+function SubScribe({ src }: { src: string }) {
     return (
-        <div  data-aos='fade-up-left' className='w-[80%] mx-auto my-16 relative h-100'>
+        <div data-aos='fade-up-left' className='w-[80%]  mx-auto my-16 '>
 
-            <img 
-            className="rounded-2xl"
-            src="/banner-10.png" alt="" />
+            <div className='relative'>
+                <img
+                    className="rounded-2xl"
+                    src="/banner-10.png" alt="" />
 
-            <div className='absolute bottom-8 right-8 '>
-                <img width={500} src={src} alt="" />
+                <div className='absolute bottom-8 right-8 '>
+                    <img width={500} src={src} alt="" />
+                </div>
             </div>
             <div className='absolute top-0 left-0 p-24'>
                 <h1 className='text-5xl text-gray-700 font-semibold pb-5'>Stay home & get your daily<br />
