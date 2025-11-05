@@ -1,4 +1,3 @@
-import React from 'react'
 
 function MiniBox({title, para}:{title:string, para:string}) {
   return (
