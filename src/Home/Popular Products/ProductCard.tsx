@@ -7,6 +7,7 @@ import PriceWithButton from "../../Compomemts/Share/PriceWithButton";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import useData from "../../Compomemts/Share/useData";
+import { Link } from "react-router";
 AOS.init()
 type productss = {
     name: string,
@@ -22,7 +23,7 @@ type productss = {
     labelColor: string
 }
 function ProductCard(props: { id?: number }) {
-    const [,products] = useData()
+    const [, products] = useData()
 
 
     // function handlerMouseEnter(e: React.MouseEvent<HTMLImageElement>) {
@@ -47,9 +48,11 @@ function ProductCard(props: { id?: number }) {
                                 className="group-hover:scale-105 opacity-100 group-hover:opacity-0  duration-1000 "
                                 src={item.image1} alt="" />
 
-                            <img
-                                className=" opacity-0  group-hover:opacity-100  duration-1000 absolute top-0 right-0 "
-                                src={item.image2} alt="" />
+                            <Link to={`/shop/${item.id}`}>
+                                <img
+                                    className=" opacity-0  group-hover:opacity-100  duration-1000 absolute top-0 right-0 "
+                                    src={item.image2} alt="" />
+                            </Link>
 
                         </div>
                         <div
@@ -65,7 +68,9 @@ function ProductCard(props: { id?: number }) {
                             </div>
                         </div>
                         <div className="px-4 pb-5">
-                            <h1 className=" leading-5 text-gray-700 font-bold line-clamp-1 w-56 hover:text-green-600 duration-300">{item.name}</h1>
+                            <Link to={`/shop/${item.id}`}>
+                                <h1 className=" leading-5 text-gray-700 font-bold line-clamp-1 w-56 hover:text-green-600 duration-300">{item.name}</h1>
+                            </Link>
                             <RaringWithP rating={item.rating} />
                             <p className="text-gray-400 text-base">By <span className="text-green-600 hover:text-yellow-400 duration-300">{item.brand}</span></p>
                             <PriceWithButton currentPrice={item.currentPrice} previousPrice={item.previousPrice} />

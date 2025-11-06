@@ -1,0 +1,1044 @@
+{
+  "products_description": [
+    {
+      "id": "1001",
+      "sku": "SKU-1001",
+      "name": "Premium Organic Bananas 1kg",
+      "categoryId": 1,
+      "type": "Organic",
+      "currentPrice": 2.99,
+      "previousPrice": 3.49,
+      "discountPercent": 14.3,
+      "shortMsg": "Experience the superior taste of our **sweet and perfectly ripe organic bananas**, a fantastic source of natural energy and essential nutrients for your daily routine.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-1-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Green Farms Ltd.",
+      "mfgDate": "Oct 25, 2025",
+      "tags": ["Snack", "Organic", "Fruit", "Potassium"],
+      "life": "7 days",
+      "stockSold": 2500,
+      "description": {
+        "paragraph1": "These exceptional fresh bananas are meticulously **sourced from dedicated organic farms** that adhere to the highest sustainable farming practices, ensuring maximum purity, optimal flavor, and the perfect degree of ripeness when they reach your kitchen.",
+        "paragraph2": "Naturally **rich in essential potassium and high in dietary fiber**, these wholesome bananas are renowned for providing sustained energy release and significantly supporting healthy digestive function throughout the day, making them an ideal snack.",
+        "bulletPoints": [
+          "Type of Packing:   Eco-friendly wrap",
+          "Color: Yellow",
+          "Quantity per case: 12 bunches",
+          "Ethyl Alcohol: None",
+          "Pieces in one: Approx 6-8 bananas",
+          "Shelf life: 7 days from delivery"
+        ],
+        "extraParagraph": "Sustainably grown and **carefully selected by hand** for optimal taste and texture, our Organic Bananas are a premium addition to any health-conscious diet, reflecting our commitment to environmental responsibility and quality produce."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packed in protective materials to maintain freshness and prevent bruising during transport.",
+        "paragraph2": "Delivery within 2-5 business days across Bangladesh."
+      },
+      "suggestedUse": "Eat raw, slice into cereal, or blend into smoothies.",
+      "otherIngredients": "100% organic bananas.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "1kg",
+        "color": "Yellow",
+        "size": "Medium"
+      },
+      "vendor": {
+        "name": "Green Farms Traders",
+        "image": "https://randomuser.me/api/portraits/men/12.jpg",
+        "address": "45 Green Road, Dhaka, Bangladesh",
+        "contact": "+8801712345678",
+        "rating": 4.7,
+        "message": "Dedicated to providing fresh organic produce directly from our farms."
+      }
+    },
+    {
+      "id": "1002",
+      "sku": "SKU-1002",
+      "name": "Crisp Red Apples 1kg",
+      "categoryId": 1,
+      "type": "Imported",
+      "currentPrice": 3.49,
+      "previousPrice": 3.99,
+      "discountPercent": 12.5,
+      "shortMsg": "Get our **exceptionally crisp and vibrant red apples**, freshly picked and bursting with a naturally sweet flavor that is perfect for snacking or baking.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-2-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Apple Valley Orchards",
+      "mfgDate": "Oct 15, 2025",
+      "tags": ["Snack", "Fruit", "Antioxidants", "Red"],
+      "life": "14 days",
+      "stockSold": 1850,
+      "description": {
+        "paragraph1": "Our high-quality crisp apples are diligently **sourced from reputable, dedicated international orchards**, ensuring top-tier purity, safety, and a consistently excellent crunch and flavor in every bite for our valued customers.",
+        "paragraph2": "These fruits are remarkably **rich in potent antioxidants and essential dietary fiber**, contributing significantly to a feeling of lasting freshness and actively supporting comprehensive overall health and well-being for all consumers.",
+        "bulletPoints": [
+          "Type of Packing: Mesh bag",
+          "Color: Red",
+          "Quantity per case: 10 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: Approx 4-5 apples",
+          "Shelf life: 14 days refrigerated"
+        ],
+        "extraParagraph": "**Hand-picked with care** at their absolute peak of ripeness, these apples guarantee the best possible flavor profile and satisfying crunch, making them a premium choice for any culinary application or simply eaten as is."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packed in sturdy boxes to maintain freshness and prevent cross-contamination.",
+        "paragraph2": "Delivery within 3-5 business days across Bangladesh."
+      },
+      "suggestedUse": "Eat raw, slice into salads, <br/> or bake into pies.",
+      "otherIngredients": "100% fresh red apples.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "1kg",
+        "color": "Red",
+        "size": "Medium"
+      },
+      "vendor": {
+        "name": "Fresh Fruit BD",
+        "image": "https://randomuser.me/api/portraits/men/25.jpg",
+        "address": "23 Agrabad, Chittagong, Bangladesh",
+        "contact": "+8801712345679",
+        "rating": 4.3,
+        "message": "Providing fresh fruits directly from trusted local orchards."
+      }
+    },
+    {
+      "id": "1003",
+      "sku": "SKU-1003",
+      "name": "Farm Fresh Potatoes 2kg",
+      "categoryId": 2,
+      "type": "Local",
+      "currentPrice": 1.25,
+      "previousPrice": 1.50,
+      "discountPercent": 16.7,
+      "shortMsg": "Our **premium quality, versatile farm fresh potatoes** are perfect for all your cooking needs, ensuring a hearty and delicious meal every time you use them.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-3-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Dhaka Agri-Supply",
+      "mfgDate": "Oct 30, 2025",
+      "tags": ["Vegetable", "Staple", "Starch", "Local"],
+      "life": "60 days",
+      "stockSold": 5200,
+      "description": {
+        "paragraph1": "These beautiful, **high-quality potatoes are directly sourced from local farms** in the fertile lands near Dhaka, where they are grown using established, reliable farming techniques to ensure consistent size and superior cooking quality for every batch.",
+        "paragraph2": "An essential kitchen staple, these potatoes are naturally **packed with complex carbohydrates, a good source of Vitamin C, and vital potassium**, offering a versatile base for countless traditional and modern dishes, providing excellent nutritional value.",
+        "bulletPoints": [
+          "Type of Packing: Net bag",
+          "Color: Light Brown",
+          "Quantity per case: 20 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: Approx 8-12 potatoes",
+          "Shelf life: 60 days in a cool, dark place"
+        ],
+        "extraParagraph": "Grown in **nutrient-rich Bangladeshi soil** and meticulously sorted for quality, these potatoes promise to deliver the best texture whether you're mashing, frying, or boiling them, guaranteeing delightful results."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Carefully packaged in breathable net bags to ensure ventilation and minimize spoilage during transit.",
+        "paragraph2": "Delivery within 2-4 business days across Bangladesh."
+      },
+      "suggestedUse": "Boil, mash, fry, or roast. A versatile staple.",
+      "otherIngredients": "100% fresh potatoes.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "2kg",
+        "color": "Brown",
+        "size": "Mixed"
+      },
+      "vendor": {
+        "name": "Dhaka Local Traders",
+        "image": "https://randomuser.me/api/portraits/men/30.jpg",
+        "address": "10 Kamal Ataturk Avenue, Dhaka, Bangladesh",
+        "contact": "+8801712345680",
+        "rating": 4.5,
+        "message": "The best from local fields, delivered fresh to your door."
+      }
+    },
+    {
+      "id": "1004",
+      "sku": "SKU-1004",
+      "name": "Premium White Eggs (1 Dozen)",
+      "categoryId": 3,
+      "type": "Farm-Raised",
+      "currentPrice": 1.99,
+      "previousPrice": 2.29,
+      "discountPercent": 13.2,
+      "shortMsg": "Enjoy our **premium-quality, large white eggs**, a versatile and essential protein source for baking, breakfast, and all your healthy cooking endeavors.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-4-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Golden Hen Poultry",
+      "mfgDate": "Nov 01, 2025",
+      "tags": ["Protein", "Dairy", "Breakfast", "Fresh"],
+      "life": "30 days",
+      "stockSold": 4100,
+      "description": {
+        "paragraph1": "These **premium-quality white eggs are sourced from humanely raised, farm-raised hens**, ensuring a consistent, high-quality product that is free from antibiotics and artificial hormones, guaranteeing safety and nutrition for your family.",
+        "paragraph2": "Each egg is an **excellent source of high-quality protein, essential vitamins (like D and B12), and beneficial choline**, making them a nutritional powerhouse perfect for starting your day or incorporating into any diet plan for vital nutrient intake.",
+        "bulletPoints": [
+          "Type of Packing: Paper carton",
+          "Color: White",
+          "Quantity per case: 10 cartons",
+          "Ethyl Alcohol: None",
+          "Pieces in one: 12 eggs (1 dozen)",
+          "Shelf life: 30 days refrigerated"
+        ],
+        "extraParagraph": "Collected daily and **carefully inspected for any imperfections**, our eggs maintain superior freshness and taste, ensuring they are the perfect ingredient for everything from delicate baking to simple, hearty scrambles."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Delicately packed in durable paper cartons to prevent cracking and breakage during handling and transport.",
+        "paragraph2": "Delivery within 1-3 business days across major cities in Bangladesh."
+      },
+      "suggestedUse": "Scramble, fry, boil, or use in baking and cooking.",
+      "otherIngredients": "100% hen eggs.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "Yes",
+        "weight": "600g",
+        "color": "White",
+        "size": "Large"
+      },
+      "vendor": {
+        "name": "Poultry & Dairy Co.",
+        "image": "https://randomuser.me/api/portraits/men/35.jpg",
+        "address": "78 Farm Street, Savar, Dhaka",
+        "contact": "+8801712345681",
+        "rating": 4.8,
+        "message": "Delivering the freshest dairy and poultry products daily."
+      }
+    },
+    {
+      "id": "1005",
+      "sku": "SKU-1005",
+      "name": "Fresh Spinach (Palong Shak) 500g",
+      "categoryId": 2,
+      "type": "Local",
+      "currentPrice": 0.99,
+      "previousPrice": 1.19,
+      "discountPercent": 16.8,
+      "shortMsg": "Grab our **freshly harvested, dark green spinach**, a nutritious leafy vegetable perfect for cooking curries, salads, and traditional Bangladeshi 'shak' dishes.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-5-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Barisal Greens",
+      "mfgDate": "Nov 05, 2025",
+      "tags": ["Vegetable", "Leafy Green", "Iron", "Local"],
+      "life": "4 days",
+      "stockSold": 3500,
+      "description": {
+        "paragraph1": "Our vibrant spinach, known locally as **Palong Shak, is harvested at its tender peak** from the lush, moist fields of Barisal, guaranteeing an incredibly fresh, crisp texture and a clean, naturally sweet flavor, perfect for diverse culinary uses.",
+        "paragraph2": "This leafy green is a **nutritional powerhouse, exceptionally high in iron, Vitamin K, and Vitamin A**, which is vital for blood health and bone strength. Incorporating this into your daily meals is a delicious way to boost essential nutrient intake.",
+        "bulletPoints": [
+          "Type of Packing: Clear plastic bag",
+          "Color: Dark Green",
+          "Quantity per case: 15 bundles",
+          "Ethyl Alcohol: None",
+          "Pieces in one: 1 bundle",
+          "Shelf life: 4 days refrigerated"
+        ],
+        "extraParagraph": "Grown through **traditional, small-scale farming methods**, our Palong Shak reflects the authentic taste of local produce, offering unparalleled freshness and quality that distinguishes it from commercially grown alternatives."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Gently packed in a clear, ventilated plastic bag to maintain moisture and freshness.",
+        "paragraph2": "Same-day/Next-day delivery available in Dhaka and Chittagong."
+      },
+      "suggestedUse": "Sauté with garlic, use in curries (shak), or blend into green smoothies.",
+      "otherIngredients": "100% fresh spinach leaves.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "500g",
+        "color": "Green",
+        "size": "Large Leaves"
+      },
+      "vendor": {
+        "name": "Barisal Vegetable Hub",
+        "image": "https://randomuser.me/api/portraits/men/40.jpg",
+        "address": "55 Sadar Road, Barisal, Bangladesh",
+        "contact": "+8801712345682",
+        "rating": 4.6,
+        "message": "Sourcing the best seasonal vegetables from the Barisal region."
+      }
+    },
+    {
+      "id": "1006",
+      "sku": "SKU-1006",
+      "name": "Premium Jasmine Rice 5kg",
+      "categoryId": 4,
+      "type": "Imported",
+      "currentPrice": 7.50,
+      "previousPrice": 8.99,
+      "discountPercent": 16.5,
+      "shortMsg": "Indulge in our **fragrant and soft-textured Premium Jasmine Rice**, the perfect staple for creating authentic Asian and international dishes with a distinct aroma.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-6-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Siam Grains Co.",
+      "mfgDate": "Sep 15, 2025",
+      "tags": ["Staple", "Imported", "Grain", "Aromatic"],
+      "life": "365 days",
+      "stockSold": 6800,
+      "description": {
+        "paragraph1": "This exquisite Jasmine Rice is **carefully imported from the fertile fields of Thailand**, known globally for producing the highest quality aromatic long-grain rice, which guarantees a light, fluffy, and slightly sticky texture when cooked perfectly.",
+        "paragraph2": "**Characterized by its distinct, subtle floral aroma and soft texture**, this premium rice elevates any meal, serving as a delicious, naturally gluten-free accompaniment to a wide variety of curries, stir-fries, and traditional rice-based recipes.",
+        "bulletPoints": [
+          "Type of Packing: Sealed plastic bag",
+          "Color: White",
+          "Quantity per case: 4 bags",
+          "Ethyl Alcohol: None",
+          "Pieces in one: N/A (Bulk)",
+          "Shelf life: 12 months in a dry place"
+        ],
+        "extraParagraph": "**Milled and packaged with precision** to retain maximum freshness and its signature fragrance, this 5kg bag offers excellent value for families who appreciate a truly superior quality rice experience in their daily meals."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Vacuum-sealed in a multi-layer plastic bag to protect against moisture, pests, and ensure long-term freshness.",
+        "paragraph2": "Delivery within 3-5 business days across Bangladesh."
+      },
+      "suggestedUse": "Cook in a rice cooker or pot; serves as a side for curries and main dishes.",
+      "otherIngredients": "100% Jasmine rice.",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "5kg",
+        "color": "White",
+        "size": "Long Grain"
+      },
+      "vendor": {
+        "name": "Global Grains Imports",
+        "image": "https://randomuser.me/api/portraits/men/45.jpg",
+        "address": "40 Port Street, Chittagong, Bangladesh",
+        "contact": "+8801712345683",
+        "rating": 4.7,
+        "message": "Bringing the world's finest staples to your table."
+      }
+    },
+    {
+      "id": "1007",
+      "sku": "SKU-1007",
+      "name": "Fresh Chicken Breast Fillets 500g",
+      "categoryId": 5,
+      "type": "Fresh",
+      "currentPrice": 3.99,
+      "previousPrice": 4.50,
+      "discountPercent": 11.3,
+      "shortMsg": "Order our **tender, high-protein chicken breast fillets**, freshly cut, skinless, and boneless—perfect for healthy, quick, and delicious weeknight meals.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-7-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Bengal Meat Processors",
+      "mfgDate": "Nov 07, 2025",
+      "tags": ["Meat", "Protein", "Fresh", "Halal"],
+      "life": "2 days",
+      "stockSold": 3100,
+      "description": {
+        "paragraph1": "Our succulent chicken breast fillets are **sourced from local farms practicing ethical rearing** and are processed in a certified Halal facility, ensuring the highest standards of hygiene, quality, and freshness from farm to delivery.",
+        "paragraph2": "An essential lean protein source, these fillets are **low in fat and rich in B vitamins and key minerals**, making them a vital component for building muscle mass and supporting a healthy, balanced, and energy-filled diet.",
+        "bulletPoints": [
+          "Type of Packing: Sealed tray (modified atmosphere)",
+          "Color: Pale Pink",
+          "Quantity per case: 10 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: Approx 2-3 fillets",
+          "Shelf life: 2 days refrigerated (or freeze immediately)"
+        ],
+        "extraParagraph": "**Professionally trimmed and immediately sealed** to lock in freshness and minimize preparation time, these fillets are ready to be marinated, grilled, or pan-fried straight out of the package for your convenience."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packed in a hygienic, sealed tray with a food-safe absorbent pad to maintain freshness and prevent leaks.",
+        "paragraph2": "Express chilled delivery within 1-2 business days across Dhaka."
+      },
+      "suggestedUse": "Grill, bake, pan-fry, or cut for stir-fries and curries.",
+      "otherIngredients": "100% chicken breast.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "500g",
+        "color": "Pink",
+        "size": "Fillets"
+      },
+      "vendor": {
+        "name": "Meat & More BD",
+        "image": "https://randomuser.me/api/portraits/men/50.jpg",
+        "address": "88 Industrial Area, Dhaka, Bangladesh",
+        "contact": "+8801712345684",
+        "rating": 4.9,
+        "message": "Your trusted source for the freshest, highest-quality meats."
+      }
+    },
+    {
+      "id": "1008",
+      "sku": "SKU-1008",
+      "name": "Organic Whole Wheat Flour 1kg",
+      "categoryId": 6,
+      "type": "Organic",
+      "currentPrice": 1.75,
+      "previousPrice": 1.99,
+      "discountPercent": 12.1,
+      "shortMsg": "Bake and cook healthier with our **fine, high-fiber organic whole wheat flour**, stone-ground to retain all the natural goodness of the grain.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-8-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Natural Grains BD",
+      "mfgDate": "Oct 01, 2025",
+      "tags": ["Baking", "Organic", "Staple", "Fiber"],
+      "life": "180 days",
+      "stockSold": 2200,
+      "description": {
+        "paragraph1": "This premium whole wheat flour is **milled from 100% certified organic wheat grains**, ensuring a product completely free from chemical pesticides and synthetic fertilizers, providing a pure and healthier choice for your home baking and cooking needs.",
+        "paragraph2": "**Significantly higher in dietary fiber and essential nutrients** compared to refined flour, this product is an excellent choice for supporting digestive health and promoting a feeling of fullness, essential for any balanced diet.",
+        "bulletPoints": [
+          "Type of Packing: Paper bag",
+          "Color: Light Brown",
+          "Quantity per case: 12 bags",
+          "Ethyl Alcohol: None",
+          "Pieces in one: N/A (Bulk)",
+          "Shelf life: 6 months in a cool, dry place"
+        ],
+        "extraParagraph": "Perfectly suitable for making wholesome **rotis, chapatis, breads, and various pastries**, this stone-ground flour imparts a rich, nutty flavor and a satisfying texture to all your favorite home-baked goods and traditional breads."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packed in a durable, breathable paper bag designed to maintain the flour's quality and freshness.",
+        "paragraph2": "Delivery within 2-4 business days across Bangladesh."
+      },
+      "suggestedUse": "Ideal for making rotis, bread, and other baked goods.",
+      "otherIngredients": "100% organic whole wheat.",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "1kg",
+        "color": "Brown",
+        "size": "Fine Grain"
+      },
+      "vendor": {
+        "name": "Organic Essentials Ltd.",
+        "image": "https://randomuser.me/api/portraits/men/55.jpg",
+        "address": "22 Green Lane, Khulna, Bangladesh",
+        "contact": "+8801712345685",
+        "rating": 4.4,
+        "message": "Committed to delivering high-quality, certified organic essentials."
+      }
+    },
+    {
+      "id": "1009",
+      "sku": "SKU-1009",
+      "name": "Fresh Milk (Full Cream) 1L",
+      "categoryId": 3,
+      "type": "Pasteurized",
+      "currentPrice": 1.45,
+      "previousPrice": 1.60,
+      "discountPercent": 9.4,
+      "shortMsg": "Our **creamy and nutritious fresh full-cream milk** is pasteurized for safety and perfect for drinking, cereals, and enriching your coffee and tea every morning.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-9-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Dairy Fresh Farms",
+      "mfgDate": "Nov 06, 2025",
+      "tags": ["Dairy", "Fresh", "Calcium", "Protein"],
+      "life": "7 days",
+      "stockSold": 5800,
+      "description": {
+        "paragraph1": "This delightful full-cream milk is **sourced from well-maintained, healthy cows** and undergoes a rigorous pasteurization process to ensure maximum safety and to preserve its wonderfully rich, natural flavor and creamy texture for consumption.",
+        "paragraph2": "A fantastic source of **essential calcium, high-quality protein, and vital Vitamin D**, this milk is indispensable for promoting strong bones, supporting muscle repair, and providing a fundamental daily boost of critical nutrients.",
+        "bulletPoints": [
+          "Type of Packing: Tetra Pak carton",
+          "Color: White",
+          "Quantity per case: 12 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: 1 liter",
+          "Shelf life: 7 days refrigerated (unopened)"
+        ],
+        "extraParagraph": "Ideal for the entire family, this milk is **perfect for making smoothies, creating rich sauces, or simply enjoying chilled**, ensuring a delicious and versatile addition to your refrigerator essentials for all your needs."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Sealed in a recyclable Tetra Pak carton designed to keep the milk fresh and protected from light.",
+        "paragraph2": "Express chilled delivery within 1-2 business days across major cities."
+      },
+      "suggestedUse": "Drink chilled, add to cereal, coffee, or use in cooking.",
+      "otherIngredients": "100% pasteurized cow's milk (Full Cream).",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "1kg",
+        "color": "White",
+        "size": "1L"
+      },
+      "vendor": {
+        "name": "Dairy Delight BD",
+        "image": "https://randomuser.me/api/portraits/men/60.jpg",
+        "address": "90 Dairy Hub, Gazipur, Bangladesh",
+        "contact": "+8801712345686",
+        "rating": 4.7,
+        "message": "Finest quality dairy products, fresh from the farm."
+      }
+    },
+    {
+      "id": "1010",
+      "sku": "SKU-1010",
+      "name": "Local Ginger 500g",
+      "categoryId": 7,
+      "type": "Local",
+      "currentPrice": 0.89,
+      "previousPrice": 1.09,
+      "discountPercent": 18.4,
+      "shortMsg": "Add a **powerful, aromatic kick to your cooking** with our pungent local ginger, a staple for Bangladeshi curries, teas, and various home remedies.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-10-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Comilla Spices",
+      "mfgDate": "Oct 28, 2025",
+      "tags": ["Spice", "Aromatic", "Root", "Local"],
+      "life": "20 days",
+      "stockSold": 2900,
+      "description": {
+        "paragraph1": "Our high-quality local ginger is **cultivated in the rich, fertile soil of Comilla**, known for producing a variety with a uniquely intense aroma and a strong, spicy flavor, which is a key characteristic highly prized in regional cuisine.",
+        "paragraph2": "Beyond its culinary uses, ginger is **celebrated for its numerous medicinal properties**, including aiding digestion and possessing potent anti-inflammatory effects, making it a valuable and natural addition to any health-conscious kitchen pantry.",
+        "bulletPoints": [
+          "Type of Packing: Mesh bag",
+          "Color: Light Brown/Yellowish",
+          "Quantity per case: 20 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: Approx 3-5 rhizomes",
+          "Shelf life: 20 days in a cool, dry place"
+        ],
+        "extraParagraph": "**Hand-selected for firmness and freshness**, this essential spice ensures that all your dishes—from savory curries and marinades to comforting ginger tea—are infused with a truly authentic and deep, vibrant flavor profile."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packaged in a breathable mesh bag to allow for air circulation and prevent moisture build-up and mold.",
+        "paragraph2": "Delivery within 2-4 business days across Bangladesh."
+      },
+      "suggestedUse": "Grate or paste for curries, slice for tea, use in marinades.",
+      "otherIngredients": "100% fresh ginger.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "500g",
+        "color": "Brown",
+        "size": "Medium"
+      },
+      "vendor": {
+        "name": "Aroma Spices BD",
+        "image": "https://randomuser.me/api/portraits/men/65.jpg",
+        "address": "33 Spice Road, Comilla, Bangladesh",
+        "contact": "+8801712345687",
+        "rating": 4.5,
+        "message": "Finest quality spices and aromatics for authentic cooking."
+      }
+    },
+    {
+      "id": "1011",
+      "sku": "SKU-1011",
+      "name": "Fresh Garlic 500g (Imported)",
+      "categoryId": 7,
+      "type": "Imported",
+      "currentPrice": 1.15,
+      "previousPrice": 1.35,
+      "discountPercent": 14.8,
+      "shortMsg": "Enhance your culinary creations with our **high-quality, imported fresh garlic**, featuring large cloves and a robust flavor that is essential for every kitchen.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-11-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Global Produce Inc.",
+      "mfgDate": "Oct 20, 2025",
+      "tags": ["Spice", "Aromatic", "Imported", "Bulb"],
+      "life": "45 days",
+      "stockSold": 3900,
+      "description": {
+        "paragraph1": "This superior quality garlic is **carefully imported from regions known for producing large, potent bulbs**, providing consistently robust flavor and easy-to-peel cloves, making it the perfect choice for all your cooking endeavors.",
+        "paragraph2": "Recognized globally, this pungent bulb is **packed with allicin, a powerful sulfur compound with well-known health benefits**, including immune-boosting and cardiovascular support properties, making it a critical ingredient for both flavor and wellness.",
+        "bulletPoints": [
+          "Type of Packing: Net bag",
+          "Color: White/Cream",
+          "Quantity per case: 20 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: Approx 4-6 bulbs",
+          "Shelf life: 45 days in a cool, dry place"
+        ],
+        "extraParagraph": "**A fundamental aromatic base in countless global cuisines**, our imported garlic is guaranteed to deliver a strong, authentic punch of flavor, whether used raw, roasted, or sautéed in oil, adding depth to any dish."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packaged in a breathable mesh bag for optimal air circulation and to extend its natural shelf life.",
+        "paragraph2": "Delivery within 3-5 business days across Bangladesh."
+      },
+      "suggestedUse": "Use minced, sliced, or crushed in curries, sauces, and marinades.",
+      "otherIngredients": "100% fresh garlic.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "500g",
+        "color": "White",
+        "size": "Large Bulbs"
+      },
+      "vendor": {
+        "name": "Global Produce Merchants",
+        "image": "https://randomuser.me/api/portraits/men/70.jpg",
+        "address": "15 Commerce Lane, Chittagong, Bangladesh",
+        "contact": "+8801712345688",
+        "rating": 4.6,
+        "message": "Sourcing the best international ingredients for your kitchen."
+      }
+    },
+    {
+      "id": "1012",
+      "sku": "SKU-1012",
+      "name": "Fresh Local Onion 1kg",
+      "categoryId": 7,
+      "type": "Local",
+      "currentPrice": 0.79,
+      "previousPrice": 0.95,
+      "discountPercent": 16.8,
+      "shortMsg": "Build the foundation of your curries and dishes with our **essential, robustly flavored local onions**, a must-have for everyday cooking in Bangladesh.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-12-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Rajshahi Farms",
+      "mfgDate": "Oct 10, 2025",
+      "tags": ["Vegetable", "Aromatic", "Staple", "Local"],
+      "life": "90 days",
+      "stockSold": 6000,
+      "description": {
+        "paragraph1": "These staple local onions are **cultivated with care in the Rajshahi region**, renowned for its ideal soil conditions that produce firm, high-quality bulbs with the strong, characteristic flavor essential for authentic local cuisine preparation.",
+        "paragraph2": "As the **cornerstone of most Bangladeshi and South Asian savory dishes**, these onions are not only essential for their fundamental flavor base but also provide important amounts of Vitamin C, B vitamins, and beneficial antioxidants for a healthy diet.",
+        "bulletPoints": [
+          "Type of Packing: Mesh bag",
+          "Color: Reddish-Brown",
+          "Quantity per case: 15 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: Approx 8-10 onions",
+          "Shelf life: 3 months in a cool, dry place"
+        ],
+        "extraParagraph": "**Expertly dried and cured** to maximize shelf life and maintain firmness, this essential 1kg bag ensures you always have the necessary building block ingredient for all your daily cooking and frying needs."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packaged in a breathable mesh bag to prevent moisture and sprouting during storage and transport.",
+        "paragraph2": "Delivery within 2-4 business days across Bangladesh."
+      },
+      "suggestedUse": "Chop and fry as a base for curries, use in salads, or roast.",
+      "otherIngredients": "100% fresh onions.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "1kg",
+        "color": "Reddish-Brown",
+        "size": "Mixed"
+      },
+      "vendor": {
+        "name": "Rajshahi Produce",
+        "image": "https://randomuser.me/api/portraits/men/75.jpg",
+        "address": "50 Market Street, Rajshahi, Bangladesh",
+        "contact": "+8801712345689",
+        "rating": 4.5,
+        "message": "Providing quality local produce straight from the fields."
+      }
+    },
+    {
+      "id": "1013",
+      "sku": "SKU-1013",
+      "name": "Salted Butter 250g",
+      "categoryId": 3,
+      "type": "Dairy",
+      "currentPrice": 2.49,
+      "previousPrice": 2.75,
+      "discountPercent": 9.5,
+      "shortMsg": "Add richness to your toast, baking, and cooking with our **creamy, high-quality salted butter**, an absolute essential for every well-stocked refrigerator.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-13-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Golden Dairy Co.",
+      "mfgDate": "Oct 29, 2025",
+      "tags": ["Dairy", "Baking", "Fat", "Salted"],
+      "life": "120 days",
+      "stockSold": 1500,
+      "description": {
+        "paragraph1": "Our rich, premium salted butter is **churned from the freshest, highest-grade cream**, resulting in a beautifully smooth texture and a consistently delightful flavor that is perfect for spreading, baking, and all forms of cooking.",
+        "paragraph2": "A delicious source of **important fat-soluble vitamins, including A, D, E, and K2**, this natural product is an enjoyable and traditional way to enhance the flavor and nutritional richness of your favorite home-cooked meals.",
+        "bulletPoints": [
+          "Type of Packing: Foil wrap/Carton box",
+          "Color: Yellow",
+          "Quantity per case: 24 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: 250g block",
+          "Shelf life: 4 months refrigerated"
+        ],
+        "extraParagraph": "**Carefully formulated with the perfect amount of salt** to enhance its rich, natural creaminess, this butter delivers excellent performance and taste, making it the preferred choice for both professional and home bakers."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Wrapped in foil and boxed to protect it from light and maintain its cold temperature and structure.",
+        "paragraph2": "Express chilled delivery within 1-2 business days across major cities."
+      },
+      "suggestedUse": "Spreading on bread, cooking, and baking.",
+      "otherIngredients": "Cream, Salt.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "250g",
+        "color": "Yellow",
+        "size": "Block"
+      },
+      "vendor": {
+        "name": "Dairy Delight BD",
+        "image": "https://randomuser.me/api/portraits/men/60.jpg",
+        "address": "90 Dairy Hub, Gazipur, Bangladesh",
+        "contact": "+8801712345686",
+        "rating": 4.7,
+        "message": "Finest quality dairy products, fresh from the farm."
+      }
+    },
+    {
+      "id": "1014",
+      "sku": "SKU-1014",
+      "name": "Premium Lentils (Masoor Dal) 1kg",
+      "categoryId": 4,
+      "type": "Local",
+      "currentPrice": 1.59,
+      "previousPrice": 1.79,
+      "discountPercent": 11.1,
+      "shortMsg": "Cook a hearty, protein-rich meal with our **premium-quality, split red lentils (Masoor Dal)**, a wholesome and quick-cooking staple in South Asian cuisine.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-14-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Dhaka Pulse Mill",
+      "mfgDate": "Sep 01, 2025",
+      "tags": ["Staple", "Pulse", "Protein", "Fiber"],
+      "life": "365 days",
+      "stockSold": 4700,
+      "description": {
+        "paragraph1": "Our split red lentils, famously known as **Masoor Dal, are directly sourced from the best local harvests** and meticulously processed to ensure optimal quality, guaranteeing they are clean, consistently sized, and ideal for quick and easy preparation.",
+        "paragraph2": "This pulse is an **exceptionally versatile and economical source of plant-based protein and substantial dietary fiber**, making it an essential, low-fat component of vegetarian diets and a cornerstone for preparing traditional, nourishing 'dal' dishes.",
+        "bulletPoints": [
+          "Type of Packing: Sealed poly bag",
+          "Color: Red/Orange",
+          "Quantity per case: 10 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: N/A (Bulk)",
+          "Shelf life: 12 months in a cool, dry place"
+        ],
+        "extraParagraph": "Due to their **quick cooking time and smooth texture**, these lentils are perfect for everything from simple, everyday dal to richer, more complex curries and soups, always delivering a satisfying, home-cooked taste."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Sealed in a high-quality poly bag to maintain dryness and protect against moisture and pests.",
+        "paragraph2": "Delivery within 2-4 business days across Bangladesh."
+      },
+      "suggestedUse": "Cook into dal, soups, or stews.",
+      "otherIngredients": "100% Masoor Dal (Split Red Lentils).",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "1kg",
+        "color": "Red",
+        "size": "Small"
+      },
+      "vendor": {
+        "name": "Pulse & Grains BD",
+        "image": "https://randomuser.me/api/portraits/men/80.jpg",
+        "address": "25 Mill Road, Dhaka, Bangladesh",
+        "contact": "+8801712345690",
+        "rating": 4.5,
+        "message": "Providing the best quality pulses and grains for your family."
+      }
+    },
+    {
+      "id": "1015",
+      "sku": "SKU-1015",
+      "name": "Fresh Green Chillies 250g",
+      "categoryId": 7,
+      "type": "Local",
+      "currentPrice": 0.59,
+      "previousPrice": 0.75,
+      "discountPercent": 21.3,
+      "shortMsg": "Ignite the flavor in your meals with our **vibrant, extra-hot fresh green chillies**, a crucial component for authentic Bangladeshi and South Asian heat.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-15-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Jessore Produce",
+      "mfgDate": "Nov 06, 2025",
+      "tags": ["Spice", "Hot", "Capsicum", "Local"],
+      "life": "7 days",
+      "stockSold": 3300,
+      "description": {
+        "paragraph1": "Our premium green chillies are **cultivated in the fertile Jessore region**, specifically selected for their intensely spicy heat and fresh, bright green appearance, delivering the powerful kick required for traditional curries and spicy dishes.",
+        "paragraph2": "Beyond delivering heat, these chillies are a **surprisingly excellent source of Vitamin C and Vitamin A**, contributing significantly to your daily intake of essential vitamins while dramatically enhancing the overall flavor profile and aroma of your cooking.",
+        "bulletPoints": [
+          "Type of Packing: Small net bag",
+          "Color: Bright Green",
+          "Quantity per case: 30 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: Approx 40-50 chillies",
+          "Shelf life: 7 days refrigerated"
+        ],
+        "extraParagraph": "Harvested just before distribution to ensure peak freshness and maximum heat, these chillies are **essential for anyone looking to achieve authentic, fiery flavors** in their favorite Bangladeshi and Indian recipes, truly transforming any dish."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packed in a small, ventilated net bag to maintain freshness and prevent premature rotting.",
+        "paragraph2": "Same-day/Next-day delivery available in Dhaka and Chittagong."
+      },
+      "suggestedUse": "Slice or chop into curries, marinades, or use as a garnish.",
+      "otherIngredients": "100% fresh green chillies.",
+      "additionalInfo": {
+        "standUp": "No",
+        "folded": "No",
+        "weight": "250g",
+        "color": "Green",
+        "size": "Small/Medium"
+      },
+      "vendor": {
+        "name": "Spice Route BD",
+        "image": "https://randomuser.me/api/portraits/men/85.jpg",
+        "address": "44 Spice Street, Jessore, Bangladesh",
+        "contact": "+8801712345691",
+        "rating": 4.4,
+        "message": "The freshest and spiciest ingredients for your culinary adventures."
+      }
+    },
+    {
+      "id": "1016",
+      "sku": "SKU-1016",
+      "name": "Refined Soybean Oil 5 Litres",
+      "categoryId": 6,
+      "type": "Refined",
+      "currentPrice": 9.99,
+      "previousPrice": 11.50,
+      "discountPercent": 13.1,
+      "shortMsg": "Choose our **versatile and light Refined Soybean Oil**, the most popular cooking medium for deep-frying and everyday use in all Bangladeshi households.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-16-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Teer Edible Oils",
+      "mfgDate": "Aug 01, 2025",
+      "tags": ["Oil", "Cooking", "Staple", "Vegetable"],
+      "life": "365 days",
+      "stockSold": 7500,
+      "description": {
+        "paragraph1": "Our high-quality Refined Soybean Oil is **expertly processed and filtered to ensure a neutral taste and light texture**, making it an incredibly versatile cooking medium that will not overpower the natural flavor of your dishes, ensuring purity in every drop.",
+        "paragraph2": "**A heart-healthy choice, this oil is rich in Omega-6 fatty acids** and features a high smoke point, making it exceptionally well-suited for high-heat cooking methods such as deep-frying, stir-frying, and extensive everyday use in the kitchen.",
+        "bulletPoints": [
+          "Type of Packing: Large plastic bottle/jar",
+          "Color: Pale Yellow",
+          "Quantity per case: 4 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: 5 Litres",
+          "Shelf life: 12 months in a cool, dark place"
+        ],
+        "extraParagraph": "This large **5-liter container is an economical choice for families** and bulk users, ensuring you always have a reliable, high-quality cooking oil on hand for all your traditional Bangladeshi and international culinary requirements."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Sealed in a heavy-duty, food-grade plastic jar with a secure cap to prevent leaks and ensure longevity.",
+        "paragraph2": "Delivery within 3-5 business days across Bangladesh."
+      },
+      "suggestedUse": "Frying, sautéing, baking, and general cooking.",
+      "otherIngredients": "100% refined soybean oil.",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "5kg",
+        "color": "Yellow",
+        "size": "5L"
+      },
+      "vendor": {
+        "name": "Essential Staples Traders",
+        "image": "https://randomuser.me/api/portraits/men/90.jpg",
+        "address": "60 Oil Refinery Road, Narayanganj, Bangladesh",
+        "contact": "+8801712345692",
+        "rating": 4.7,
+        "message": "Reliable and high-quality essential cooking ingredients."
+      }
+    },
+    {
+      "id": "1017",
+      "sku": "SKU-1017",
+      "name": "Finest Black Tea (Dust) 500g",
+      "categoryId": 8,
+      "type": "Local",
+      "currentPrice": 2.29,
+      "previousPrice": 2.59,
+      "discountPercent": 11.5,
+      "shortMsg": "Start your day right with our **strong and invigorating finest black tea dust**, the preferred choice for a deep color and full-bodied traditional Bangladeshi 'cha'.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-17-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Sylhet Tea Gardens",
+      "mfgDate": "Oct 15, 2025",
+      "tags": ["Beverage", "Caffeine", "Local", "Dust"],
+      "life": "730 days",
+      "stockSold": 5000,
+      "description": {
+        "paragraph1": "Our finest black tea dust is **harvested from the esteemed tea gardens of Sylhet**, an area renowned for producing some of the world's most robust and richly colored teas, perfectly suited for the popular, strong, milk-based Bangladeshi tea (cha).",
+        "paragraph2": "**Known for its intense, full-bodied flavor and deep, coppery red color**, this tea provides a powerful boost of natural caffeine, making it the perfect morning or afternoon beverage to enhance focus and provide lasting energy.",
+        "bulletPoints": [
+          "Type of Packing: Foil-lined pouch",
+          "Color: Black",
+          "Quantity per case: 10 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: N/A (Bulk)",
+          "Shelf life: 24 months in a sealed container"
+        ],
+        "extraParagraph": "**Carefully processed and immediately sealed** to preserve its powerful aroma and flavor, this tea dust ensures a strong, invigorating cup every single time, maintaining the high quality expected from Sylhet's best production."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Sealed in a moisture-proof, foil-lined pouch to lock in freshness and protect the tea's delicate aroma.",
+        "paragraph2": "Delivery within 3-5 business days across Bangladesh."
+      },
+      "suggestedUse": "Brew with boiling water, milk, and sugar for traditional 'cha'.",
+      "otherIngredients": "100% black tea dust.",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "500g",
+        "color": "Black",
+        "size": "Dust"
+      },
+      "vendor": {
+        "name": "Tea Valley Traders",
+        "image": "https://randomuser.me/api/portraits/men/95.jpg",
+        "address": "70 Tea Garden Road, Sylhet, Bangladesh",
+        "contact": "+8801712345693",
+        "rating": 4.6,
+        "message": "Bringing the best of Bangladeshi tea to your home."
+      }
+    },
+    {
+      "id": "1018",
+      "sku": "SKU-1018",
+      "name": "Premium Instant Noodles (Masala) 4-pack",
+      "categoryId": 9,
+      "type": "Convenience",
+      "currentPrice": 0.89,
+      "previousPrice": 0.99,
+      "discountPercent": 10.1,
+      "shortMsg": "The perfect quick meal: our **tasty and easy-to-prepare premium instant noodles** with a classic, savory masala flavor, ideal for busy days or a quick snack.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-18-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Quick Meals BD",
+      "mfgDate": "Sep 20, 2025",
+      "tags": ["Snack", "Quick Meal", "Masala", "Noodles"],
+      "life": "180 days",
+      "stockSold": 6200,
+      "description": {
+        "paragraph1": "These popular instant noodles are **made with high-quality wheat flour and come complete with our signature, richly flavored masala seasoning packet**, offering a consistently delicious and extremely satisfying quick meal solution that's ready in minutes.",
+        "paragraph2": "An incredibly convenient and versatile pantry item, this 4-pack provides a **fast, satisfying option for lunch or a late-night snack**, and it can easily be enhanced with added vegetables, eggs, or chicken for a more complete and nutritious meal.",
+        "bulletPoints": [
+          "Type of Packing: Sealed plastic wrapper",
+          "Color: Pale Yellow (Noodles)",
+          "Quantity per case: 12 packs",
+          "Ethyl Alcohol: None",
+          "Pieces in one: 4 individual packs",
+          "Shelf life: 6 months in a dry place"
+        ],
+        "extraParagraph": "**Loved by students and families alike for their convenience and great taste**, these premium instant noodles are an essential and budget-friendly grocery item that makes preparing a quick, flavorful meal incredibly simple and hassle-free."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Each pack is individually sealed in an airtight wrapper, and all four are combined in a durable outer plastic packaging.",
+        "paragraph2": "Delivery within 2-4 business days across Bangladesh."
+      },
+      "suggestedUse": "Boil for 2 minutes and mix with the seasoning packet.",
+      "otherIngredients": "Wheat flour, palm oil, salt, masala seasoning.",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "280g (4x70g)",
+        "color": "Yellow",
+        "size": "N/A"
+      },
+      "vendor": {
+        "name": "Food Factory BD",
+        "image": "https://randomuser.me/api/portraits/men/99.jpg",
+        "address": "12 Processed Food Zone, Gazipur, Bangladesh",
+        "contact": "+8801712345694",
+        "rating": 4.5,
+        "message": "Providing quality, convenient food solutions for modern life."
+      }
+    },
+    {
+      "id": "1019",
+      "sku": "SKU-1019",
+      "name": "Whole Black Peppercorns 100g",
+      "categoryId": 7,
+      "type": "Premium",
+      "currentPrice": 2.75,
+      "previousPrice": 3.00,
+      "discountPercent": 8.3,
+      "shortMsg": "Grind fresh and savor the **bold, pungent flavor of our whole black peppercorns**, the king of spices for seasoning all your favorite dishes.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-19-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Aroma Spices BD",
+      "mfgDate": "Oct 05, 2025",
+      "tags": ["Spice", "Aromatic", "Seasoning", "Whole"],
+      "life": "730 days",
+      "stockSold": 1100,
+      "description": {
+        "paragraph1": "These exceptional whole black peppercorns are **sourced from the highest-quality, most esteemed spice regions** globally, ensuring that you receive consistently bold flavor, intense aroma, and maximum freshness, perfect for your pepper grinder.",
+        "paragraph2": "**Renowned as the most widely used spice in the world, black pepper** is celebrated for its warm, sharp taste that dramatically enhances both savory and sweet dishes, and it is also known to aid digestion and enhance nutrient absorption effectively.",
+        "bulletPoints": [
+          "Type of Packing: Sealed plastic jar",
+          "Color: Black",
+          "Quantity per case: 18 units",
+          "Ethyl Alcohol: None",
+          "Pieces in one: N/A (Whole peppercorns)",
+          "Shelf life: 24 months in a cool, dark place"
+        ],
+        "extraParagraph": "Storing the **peppercorns whole and grinding them just before use** is the secret to unlocking their most intense, complex essential oils and their incredibly powerful, unparalleled fresh aroma and distinct flavor profile."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Packaged in a clear, sealed plastic jar with a tight-fitting lid to preserve their aroma and freshness.",
+        "paragraph2": "Delivery within 3-5 business days across Bangladesh."
+      },
+      "suggestedUse": "Grind fresh over steaks, eggs, salads, and curries.",
+      "otherIngredients": "100% whole black peppercorns.",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "100g",
+        "color": "Black",
+        "size": "Whole"
+      },
+      "vendor": {
+        "name": "Aroma Spices BD",
+        "image": "https://randomuser.me/api/portraits/men/65.jpg",
+        "address": "33 Spice Road, Comilla, Bangladesh",
+        "contact": "+8801712345687",
+        "rating": 4.5,
+        "message": "Finest quality spices and aromatics for authentic cooking."
+      }
+    },
+    {
+      "id": "1020",
+      "sku": "SKU-1020",
+      "name": "Basmati Rice 2kg (Aged)",
+      "categoryId": 4,
+      "type": "Aged",
+      "currentPrice": 4.50,
+      "previousPrice": 4.99,
+      "discountPercent": 9.8,
+      "shortMsg": "Elevate your pilaf and biryani with our **premium, aged Basmati Rice**, known for its extra-long grains, incredible fragrance, and fluffy, non-sticky texture.",
+      "image1": "https://nest-frontend-v6.vercel.app/assets/imgs/shop/product-20-1.jpg",
+      "stockStatus": "In Stock",
+      "mfg": "Himalayan Harvest",
+      "mfgDate": "Jul 01, 2024",
+      "tags": ["Staple", "Aged", "Aromatic", "Grain"],
+      "life": "730 days",
+      "stockSold": 3800,
+      "description": {
+        "paragraph1": "This authentic Basmati Rice is **carefully aged for a minimum of 12 months** to enhance its rich, nutty aroma and allow the grains to elongate exceptionally when cooked, making it the perfect choice for crafting superior, gourmet rice dishes.",
+        "paragraph2": "Recognized globally as a **premium rice variety, Basmati is naturally gluten-free** and, due to its low glycemic index, it is often a preferred, healthier option for maintaining balanced energy levels throughout the day compared to other white rice types.",
+        "bulletPoints": [
+          "Type of Packing: Sealed poly bag",
+          "Color: Creamy White",
+          "Quantity per case: 6 bags",
+          "Ethyl Alcohol: None",
+          "Pieces in one: N/A (Bulk)",
+          "Shelf life: 24 months in a dry, cool place"
+        ],
+        "extraParagraph": "**A must-have for preparing traditional South Asian feasts** like Biryani and Pulao, this 2kg bag of aged Basmati guarantees a delicate texture and an unforgettable, world-class aromatic experience with every single delicious serving."
+      },
+      "packagingAndDelivery": {
+        "paragraph1": "Sealed in a strong, moisture-resistant poly bag to protect the grains and preserve the rice's delicate fragrance.",
+        "paragraph2": "Delivery within 3-5 business days across Bangladesh."
+      },
+      "suggestedUse": "Ideal for Biryani, Pulao, and other festive rice dishes.",
+      "otherIngredients": "100% aged Basmati rice.",
+      "additionalInfo": {
+        "standUp": "Yes",
+        "folded": "No",
+        "weight": "2kg",
+        "color": "White",
+        "size": "Extra Long Grain"
+      },
+      "vendor": {
+        "name": "Global Grains Imports",
+        "image": "https://randomuser.me/api/portraits/men/45.jpg",
+        "address": "40 Port Street, Chittagong, Bangladesh",
+        "contact": "+8801712345683",
+        "rating": 4.7,
+        "message": "Bringing the world's finest staples to your table."
+      }
+    }
+  ]
+}

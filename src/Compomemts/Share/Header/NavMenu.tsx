@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+
 import { NavLink } from 'react-router'
 
 function NavMenu() {
@@ -38,7 +38,6 @@ function NavMenu() {
         }
 
     ]
-    const [flag, setFlag] = useState(false)
     return (
         <div className='flex  items-center justify-between gap-10'>
             <div className='flex items-center gap-2 font-[quicksand] font-semibold'>
@@ -50,21 +49,10 @@ function NavMenu() {
                     menus.map((item, idx) => (
                         <div key={idx} className='hover:-translate-y-1 duration-500 ease-in-out hover:text-green-600'>
                             <NavLink
-                            onMouseEnter={()=> setFlag(true)}
-                            onMouseLeave={()=> setFlag(false)}
-                             className={({ isActive }) => isActive ? 'text-green-600' : ''} to={item.nvlink}>{item.name}</NavLink>
-
+                                className={({ isActive }) => isActive ? 'text-green-600' : ''} to={item.nvlink}>{item.name}</NavLink>
                         </div>
                     ))
                 }
-                <div 
-                onMouseEnter={()=> setFlag(true)}
-                onMouseLeave={()=> setFlag(false)}
-                className={`bg-green-600 ${flag? 'block': 'hidden'} absolute translate-y-5 -translate-x-5 text-white p-4 rounded-md`}>
-                    <h1>Asad</h1>
-                    <h1>Najmul1</h1>
-                    <h1>Najmul02</h1>
-                </div>
             </div>
             <div>
                 <div className='flex items-center gap-3'>

@@ -4,7 +4,7 @@ function useData() {
     const [categories, setCategories] = useState([])
     useEffect(() => {
         async function getData() {
-            const res = await fetch('categories.json')
+            const res = await fetch('/categories.json')
             const { categories } = await res.json()
             setCategories(categories)
         }

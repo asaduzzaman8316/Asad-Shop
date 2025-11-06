@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import LastService from '../../Compomemts/Share/LastService'
 import SubScribe from '../../Compomemts/Share/Subscribe'
 import DealsOfDay from '../../Home/DealsOfDay/DealsOfDay'
@@ -9,6 +10,7 @@ import FillByPrice from './components/FillByPrice'
 import NewProduct from './components/NewProduct'
 
 function Shoop() {
+    const [cid, setCid] = useState<number>(0)
     return (
         <div>
             <div className='grid grid-cols-6 w-[80%] mx-auto '>
@@ -17,7 +19,7 @@ function Shoop() {
                         <p className='text-gray-400 pt-8'>We found <span className='text-green-600'>20</span> items for you!</p>
                     </div>
                     <div className='grid grid-cols-5 gap-5 px-2'>
-                        <ProductCard id={0} />
+                        <ProductCard id={cid} />
                     </div>
                     <div>
                         <DealsOfDay />
@@ -25,7 +27,7 @@ function Shoop() {
                 </div>
                 <div className='col-span-1 mt-8  space-y-8'>
 
-                    <Category />
+                    <Category setCid={setCid}/>
                     <FillByPrice />
                     <NewProduct />
                     <Card />

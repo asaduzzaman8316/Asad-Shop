@@ -7,6 +7,7 @@ import { RouterProvider } from "react-router/dom";
 import Home from './Home/Home.tsx';
 import About from './Pages/About/About.tsx';
 import Shoop from './Pages/Shop/Shoop.tsx';
+import SingleProduct from './Compomemts/Share/SingleProduct/SingleProduct.tsx';
 
 const router = createBrowserRouter([
     {
@@ -22,9 +23,14 @@ const router = createBrowserRouter([
                 element: <About />
             },
             {
-                path:'/shop',
-                element:<Shoop/>
+                path: '/shop',
+                element: <Shoop />
+            },
+            {
+                path: '/shop/:id',
+                element: <SingleProduct />
             }
+
         ]
     },
 ]);
