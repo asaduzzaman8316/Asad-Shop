@@ -20,7 +20,7 @@ function SingleCategory({ title, products }: { title: string | null, products: p
         <div data-aos='zoom-in-down' className="relative">
             <h1 className="border-b peer pb-2 border-b-gray-200 text-2xl font-[quicksand] font-semibold text-gray-700">{title}</h1>
             <div className="peer-absolute top-0 h-0.5 bg-green-300 w-[25%]"></div>
-            <div className="space-y-5 mt-10">
+            <div className="space-y-5 mt-10 ">
                 {
                     filterProducts && filterProducts.splice(0, 3).map((item, idx) => (
                         <div key={idx} className="flex gap-2 items-center w-[95%] hover:-translate-y-1 duration-500 group">

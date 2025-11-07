@@ -4,6 +4,10 @@ import useProduct from "../useProduct"
 import { TbArrowsCross } from "react-icons/tb";
 import { IoCartOutline } from "react-icons/io5";
 import SingleProductDescription from "./SingleProductDescription";
+import RelatedProduct from "../RelatedProduct";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+AOS.init()
 interface detesls {
     id: string,
     currentPrice: number,
@@ -19,6 +23,7 @@ interface detesls {
     tags: string[],
     life: string,
     stockSold: number,
+    categoryId: number
 }
 interface ProductHook {
     description: detesls[]
@@ -35,10 +40,10 @@ function Top({ id }: { id: string | undefined }) {
                 filterData ? (
                     <>
                         <div className=" flex w-full gap-8 p-4 font-[quicksand] font-semibold">
-                            <div className="w-[50%] border border-gray-200 rounded-xl">
+                            <div data-aos='zoom-in-right' className="w-[50%] border border-gray-200 rounded-xl">
                                 <img src={filterData.image1} alt="" />
                             </div>
-                            <div className="w-[50%] ">
+                            <div data-aos='zoom-in-down' className="w-[50%] ">
                                 <div className="">
                                     <p className="bg-red-100 text-red-500 text-sm  rounded-md font-bold w-18 py-1 text-center mb-4">{filterData.stockStatus}</p>
                                     <h1 className="text-4xl font-bold text-gray-800 mb-4">{filterData.name}</h1>
@@ -96,7 +101,8 @@ function Top({ id }: { id: string | undefined }) {
                                 </div>
                             </div>
                         </div>
-                        <SingleProductDescription  id={id}/>
+                        <SingleProductDescription id={id} />
+                        <RelatedProduct id={filterData.categoryId} />
                     </>
                 ) : (
                     <p>hello</p>

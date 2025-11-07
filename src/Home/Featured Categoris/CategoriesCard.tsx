@@ -1,6 +1,8 @@
 
 import useData from "../../Compomemts/Share/useData"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+AOS.init()
 type categories = {
     id: number,
     name: string,
@@ -18,7 +20,7 @@ function CategoriesCard() {
         <div className="grid grid-cols-10 gap-3 mt-10 h-48  overflow-hidden">
             {
                 categories.map((item: categories, idx) => (
-                    <div key={idx} className="flex flex-wrap  gap-5  items-center justify-center  ">
+                    <div data-aos='fade-up' data-aos-delay={`${100*item.id}`} key={idx} className="flex flex-wrap  gap-5  items-center justify-center  ">
 
                         <div className={`p-4 text-center ${item.color} font-[quicksand] rounded-lg group border border-white hover:border-green-200 duration-500 transition-all hover:shadow-md  hover:rounded-lg`} >
                             <img

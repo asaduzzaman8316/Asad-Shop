@@ -3,7 +3,7 @@ import 'aos/dist/aos.css'
 AOS.init()
 function Hero() {
     return (
-        <div data-aos='zoom-out' className="lg:w-[80%] relative 2xl:container mx-auto mt-10">
+        <div data-aos='zoom-out' className="lg:w-[80%]  relative 2xl:container mx-auto mb-20 mt-30">
             <img
                 className="relative rounded-2xl"
                 src="/slider-1.png" alt="" />

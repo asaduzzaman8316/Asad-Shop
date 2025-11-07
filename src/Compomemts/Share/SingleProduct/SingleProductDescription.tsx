@@ -4,6 +4,9 @@ import useProduct from "../useProduct";
 import RaringWithP from "../RaringWithP";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaHeadset } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+AOS.init()
 
 interface destype {
     paragraph1: string,
@@ -77,7 +80,7 @@ function SingleProductDescription({ id }: { id: string | undefined }) {
                         className={`border ${btn === 2 && 'text-green-600'} border-gray-200 hover:text-green-600 hover:-translate-y-1 duration-500 px-4 py-1.5 text-gray-500 font-bold rounded-full cursor-pointer`}>Vendor</div>
                 </div>
 
-                <div className={`${btn === 0 ? 'block' : 'hidden'}`}>
+                <div  className={`${btn === 0 ? 'block' : 'hidden'}`}>
                     <div className="space-y-7 border-b pb-8 border-gray-200 ">
                         <p className="text-gray-600">{filterData?.description.paragraph1}</p>
                         <ol className="list-disc text-gray-500 pl-4">
