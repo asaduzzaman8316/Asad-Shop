@@ -31,7 +31,7 @@ type productss = {
 }
 function Silder(props: { label: string }) {
 
-    const [, products] = useData() as [boolean , productss[]]
+    const {products}= useData()
 
     const dispatch = useDispatch()
 
@@ -51,12 +51,12 @@ function Silder(props: { label: string }) {
     };
 
 
-    const filterProduct = props.label !== 'All' ? products.filter((item) => item.label === props.label) : products;
+    const filterProduct = props.label !== 'All' ? products.filter((item:productss) => item.label === props.label) : products;
     return (
         <div className=' slider-container   gap-5  items-center justify-center'>
             <Slider {...settings} className=''>
                 {
-                    filterProduct.map((item) => (
+                    filterProduct.map((item:productss) => (
                         <div
                             onClick={() => navegite(`/shop/${item.id}`)}
                             data-aos='fade-left' key={item.id} className='px-2'>

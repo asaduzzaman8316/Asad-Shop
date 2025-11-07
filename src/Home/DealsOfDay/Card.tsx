@@ -43,7 +43,7 @@ function Card({ props }: { props: data }) {
                             <RaringWithP rating={props.rating} />
                             <p className="text-sm text-gray-400">By <span className="text-green-600">{props.brand}</span></p>
                         </div>
-                        <PriceWithButton currentPrice={props.currentPrice} previousPrice={props.preprice} />
+                        <PriceWithButton id={0} currentPrice={props.currentPrice} previousPrice={props.preprice} />
                     </div>
                 </div>
             </div>

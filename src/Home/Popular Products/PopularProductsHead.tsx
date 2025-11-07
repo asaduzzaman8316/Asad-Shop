@@ -11,7 +11,7 @@ type categories = {
 }
 function PopularProductsHead() {
     // fetch data 
-    const [categories] = useData()
+    const {categories} = useData()
     
     const [cid, setCid] = useState(0)
 

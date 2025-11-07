@@ -22,7 +22,7 @@ type productss = {
     labelColor: string
 }
 function RelatedProduct({ id }: { id: number | undefined }) {
-    const [, products] = useData()
+    const {products} = useData()
 
     const filterProduct = id !== undefined ? products.filter((item: productss) => item.categoryId === id) : products;
     return (

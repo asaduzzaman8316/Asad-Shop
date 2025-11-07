@@ -24,7 +24,7 @@ type productss = {
     labelColor: string
 }
 function ProductCard(props: { id?: number }) {
-    const [, products, isLoading] = useData()
+    const {products, isLoading} = useData()
 
     if (isLoading) {
         return (
@@ -34,7 +34,7 @@ function ProductCard(props: { id?: number }) {
         )
     }
 
-    const filterProduct = props.id !== 0 ? (products as productss[]).filter((item: productss) => item.categoryId === props.id) : (products as productss[]);
+    const filterProduct = props.id !== 0 ? products.filter((item: productss) => item.categoryId === props.id) : products ;
     return (
         <>
             {

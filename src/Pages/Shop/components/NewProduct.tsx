@@ -11,7 +11,7 @@ type productss = {
     label: string,
 }
 function NewProduct() {
-    const [,products] = useData()
+    const {products} = useData()
 
     const filterProduct = products.filter((item: productss) => item.label === 'new')
 

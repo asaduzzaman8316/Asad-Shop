@@ -30,7 +30,7 @@ function useData() {
         getData()
     }, [])
 
-    return [categories, products, isLoading]
+    return {categories, products, isLoading}
 }
 
 export default useData

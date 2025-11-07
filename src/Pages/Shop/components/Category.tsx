@@ -10,7 +10,7 @@ type data = {
     totalItems: number
 }
 const Category: React.FC<CategoryProps> = ({ setCid }) => {
-    const [categories] = useData()
+    const {categories}= useData()
     const navigate = useNavigate()
 
     function handlerClick(e: number) {

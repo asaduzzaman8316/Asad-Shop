@@ -12,7 +12,7 @@ type categories = {
 }
 function CategoriesCard() {
 
-    const [categories] = useData()
+    const {categories} = useData()
 
 
 
