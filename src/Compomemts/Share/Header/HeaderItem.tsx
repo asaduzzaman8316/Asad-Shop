@@ -7,10 +7,23 @@ import { CiLocationOn } from "react-icons/ci";
 import Sidelogo from "./Sidelogo";
 import { useSelector } from "react-redux";
 import type { RootState } from "../../../Redux/store";
-
+import { useEffect, useState } from "react";
+type categoriesType = {
+    id: number,
+    name: string
+}
 
 function HeaderItem() {
     const count = useSelector((state: RootState) => state.counter.value)
+    const [location, setLocation ] = useState([]) 
+    useEffect(() => {
+        async function getData() {
+            const res = await fetch('/Location.json')
+            const { locations } = await res.json()
+            setLocation(locations)
+        }
+        getData()
+    }, [])
     return (
         <div className="2xl:container lg:w-[80%] mx-auto py-6 px-4 flex  sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex items-center w-full sm:w-auto justify-between">
@@ -26,7 +39,16 @@ function HeaderItem() {
             <div className="flex items-center gap-3 ml-auto">
                 <div className="hidden md:flex items-center border px-3 py-2 rounded-lg border-gray-300 gap-2">
                     <CiLocationOn />
-                    <p className="text-green-600 text-sm">Your Location <i className="fas fa-angle-down text-gray-600 text-xs"></i></p>
+                    <div className="text-green-600 text-sm">
+                        <select className="outline-none">
+                            <option value="">Your Location</option>
+                            {
+                              location &&  location.map((item: categoriesType) => (
+                                    <option value={item.name} key={item.id}>{item.name}</option>
+                                ))
+                            }
+                        </select>
+                    </div>
                 </div>
                 <div className="flex items-center gap-4">
                     <Sidelogo nav="/wishlist" Icon={FaRegHeart} name="Wishlist" count={count} />

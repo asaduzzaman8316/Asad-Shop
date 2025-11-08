@@ -1,15 +1,28 @@
 
 import { CiSearch } from "react-icons/ci";
-import { HiOutlineChevronDown } from "react-icons/hi2";
-
+import useData from "../useData";
+type categoriesType = {
+  id: number,
+  name: string
+}
 const Search = () => {
+
+  const { categories } = useData()
+
   return (
     <>
       <div className="flex items-center border border-[#bce3c9] rounded-sm px-2 py-3">
         <div className="border-r border-r-gray-300 px-3 mr-2 ">
           <div className="flex items-center gap-3.5 font-quicksand outline-none">
-            <span className="font-bold text-sm text-[#253D4E]">All Categories</span>
-            <HiOutlineChevronDown className="w-3 mt-0.5" />
+            <select
+              name="" id="">
+              <option value="">All Categories</option>
+              {
+                categories.map((item: categoriesType) => (
+                  <option value={item.name} key={item.id}>{item.name}</option>
+                ))
+              }
+            </select>
           </div>
         </div>
         <div className="flex items-center relative flex-1">
