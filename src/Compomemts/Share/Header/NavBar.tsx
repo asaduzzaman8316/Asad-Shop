@@ -7,7 +7,7 @@ function NavBar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   return (
     <div className='sticky top-0 py-2 z-50 w-full bg-white border-b border-gray-200'>
-      <div className='2xl:container mx-auto lg:w-[80%] w-full flex items-center justify-between px-4'>
+      <div className='container mx-auto  w-full flex items-center justify-between px-4'>
         <div className='flex items-center gap-4'>
           <NavLeft />
         </div>

@@ -13,12 +13,12 @@ function Shoop() {
     const [cid, setCid] = useState<number>(0)
     return (
         <div className='container mx-auto'>
-            <div className='grid grid-cols-6 w-[80%] mx-auto '>
+            <div className='grid grid-cols-6 justify-between mx-auto '>
                 <div className='lg:col-span-5 col-span-6  mr-4'>
                     <div>
                         <p className='text-gray-400 pt-8'>We found <span className='text-green-600'>20</span> items for you!</p>
                     </div>
-                    <div className='grid lg:grid-cols-5 gap-5 px-2'>
+                    <div className='grid lg:grid-cols-5 gap-5'>
                         <ProductCard id={cid} />
                     </div>
                     <div>

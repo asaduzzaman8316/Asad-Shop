@@ -9,7 +9,7 @@ import About from './Pages/About/About.tsx';
 import Shoop from './Pages/Shop/Shoop.tsx';
 import SingleProduct from './Compomemts/Share/SingleProduct/SingleProduct.tsx';
 import AddtoCart from './Pages/Add To Cart/AddtoCart.tsx';
-import NotFound from './notFound.tsx';
+import NotFound from './NotFound.tsx';
 
 const router = createBrowserRouter([
     {

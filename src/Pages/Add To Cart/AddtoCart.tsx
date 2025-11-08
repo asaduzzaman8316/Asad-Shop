@@ -227,7 +227,7 @@ function AddtoCart() {
                                 }, 1000)
                             )}
                             className='peer'>{btnText} </button>
-                        <div className={`-translate-x-[310px] ${animatin && 'translate-x-[310px]'} duration-500 `}>
+                        <div className={`-translate-x-[310px] ${animatin && 'translate-x-0'} duration-500 `}>
                             <IoExitOutline />
                         </div>
                     </div>

@@ -16,7 +16,7 @@ function TeamRight({ src, title, bio }: { src: string, title: string, bio: strin
                 />
             </div>
             <div
-                className='text-center shadow-md  absolute duration-500  w-[80%] right-10 py-8 rounded-lg -bottom-20 bg-white group-hover:-translate-y-2'
+                className='text-center shadow-md  absolute duration-500  w-[80%] left-5 py-8 rounded-lg -bottom-20 bg-white group-hover:-translate-y-2'
             >
                 <p className='text-2xl font-semibold'>{title}</p>
                 <p className='text-gray-600 pb-4'>{bio}</p>

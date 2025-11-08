@@ -4,7 +4,7 @@ import Loader from '../../Loader/Loader';
 AOS.init()
 function Hero() {
     return (
-        <div data-aos='zoom-out' className="relative 2xl:container mx-auto lg:mb-20 mt-8 ">
+        <div data-aos='zoom-out' className="relative container mx-auto lg:mb-20 mt-8 ">
             <Loader />
             <div className="relative rounded-2xl overflow-hidden">
                 <img

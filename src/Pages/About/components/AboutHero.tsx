@@ -4,7 +4,7 @@ import Carousel from './Carousel'
 
 function AboutHero() {
     return (
-        <div className='lg:w-[70%] w-[80%] mx-auto   gap-8  items-center grid grid-cols-5 justify-between pt-20 h-auto'>
+        <div className='container mx-auto   gap-8  items-center grid grid-cols-5 justify-between pt-20 h-auto'>
             <div className='lg:col-span-2 col-span-5'>
                 <img
                     className='rounded-md '

@@ -25,7 +25,7 @@ function HeaderItem() {
         getData()
     }, [])
     return (
-        <div className="2xl:container lg:w-[80%] mx-auto py-6 px-4 flex  sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="container mx-auto py-6 px-4 flex  sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex items-center w-full sm:w-auto justify-between">
                 <div className="lg:w-36 w-28">
                     <img src="/logo.svg" alt="" />

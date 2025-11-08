@@ -14,7 +14,7 @@ function StatusTop() {
     }
     ]
     return (
-        <div className='w-[80%] mx-auto flex flex-col lg:flex-row justify-between gap-5 items-center text-center '>
+        <div className='container mx-auto flex flex-col lg:flex-row justify-between gap-5 items-center text-center '>
             {
                 card.map((item, idx) => (
                     <div key={idx}>

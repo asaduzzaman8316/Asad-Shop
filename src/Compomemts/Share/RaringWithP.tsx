@@ -3,7 +3,7 @@
 function RaringWithP(rating:{rating?:number}) {
     return (
         <div className="text-yellow-500 text-xs mt-2 flex items-center">
-            {/* rating */}
+
             <i className="fas fa-star"></i>
             <i className="fas fa-star"></i>
             <i className="fas fa-star"></i>

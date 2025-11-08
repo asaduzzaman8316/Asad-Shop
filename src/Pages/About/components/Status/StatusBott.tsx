@@ -73,7 +73,7 @@ function StatusBott() {
 
   return (
     <div data-aos='fade-down ' className='hidden lg:block'>
-      <div className='h-70 rounded-md mt-10 relative w-[80%] mx-auto overflow-hidden'>
+      <div className='h-70 rounded-md mt-10 relative container mx-auto overflow-hidden'>
         <img
           className='absolute top-0 bottom-0 z-10'
           width={3500}

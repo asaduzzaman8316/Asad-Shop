@@ -7,7 +7,7 @@ function NotFound() {
                 <div className="text-center">
                     <p className="text-3xl font-semibold text-indigo-400">404</p>
                     <h1 className="mt-4 text-5xl font-semibold tracking-tight text-balance text-gray-800 sm:text-7xl">
-                        We are Working 
+                        We are Working
                     </h1>
                     <p className="mt-6 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
                         Sorry, we are working to fix it, Please Stay With Us.

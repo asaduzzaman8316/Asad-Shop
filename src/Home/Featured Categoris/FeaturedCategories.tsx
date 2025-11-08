@@ -3,7 +3,7 @@ import FeaturedCategoriesTop from "./FeaturedCategoriesTop"
 
 function FeaturedCategories() {
     return (
-        <div className="2xl:container mx-auto lg:w-[80%] py-16">
+        <div className="container mx-auto  py-16">
             <FeaturedCategoriesTop />
             <CategoriesCard />
 
