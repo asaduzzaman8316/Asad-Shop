@@ -4,7 +4,7 @@ import 'aos/dist/aos.css'
 AOS.init()
 function Left() {
     return (
-        <div data-aos='fade-right' className='w-[50%] mr-8'>
+        <div data-aos='fade-right' className='lg:w-[50%] lg:mr-8'>
 
             <img
                 width={800}

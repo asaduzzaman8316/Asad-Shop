@@ -25,7 +25,7 @@ const cardData = [
 ]
 function LastService() {
     return (
-        <div className='w-[80%] mx-auto flex flex-col lg:flex-row gap-5 justify-between font-[quicksand] font-semibold'>
+        <div className='w-[80%] mx-auto flex flex-col lg:flex-row gap-5 justify-between font-[quicksand] font-semibold container'>
             {
                 cardData.map((item, idx) => (
                     <div 

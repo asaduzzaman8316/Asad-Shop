@@ -12,7 +12,6 @@ function StatusBott() {
   const [five, setFive] = useState(0)
 
   useEffect(() => {
-    // separate intervals for each counter
     const i1 = setInterval(() => {
       setFirst(prev => {
         if (prev >= 14) {
@@ -63,7 +62,6 @@ function StatusBott() {
       })
     }, 100)
 
-    // cleanup
     return () => {
       clearInterval(i1)
       clearInterval(i2)
@@ -74,7 +72,7 @@ function StatusBott() {
   }, [])
 
   return (
-    <div data-aos='fade-down'>
+    <div data-aos='fade-down ' className='hidden lg:block'>
       <div className='h-70 rounded-md mt-10 relative w-[80%] mx-auto overflow-hidden'>
         <img
           className='absolute top-0 bottom-0 z-10'

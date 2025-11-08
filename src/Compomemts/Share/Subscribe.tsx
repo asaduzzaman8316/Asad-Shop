@@ -3,7 +3,7 @@ import 'aos/dist/aos.css'
 AOS.init()
 function SubScribe({ src }: { src: string }) {
     return (
-        <div data-aos='fade-up-left' className='lg:w-[80%] relative mx-auto my-16 '>
+        <div data-aos='fade-up-left' className='lg:w-[80%] container relative mx-auto my-16 '>
 
             <div className='relative'>
                 <img

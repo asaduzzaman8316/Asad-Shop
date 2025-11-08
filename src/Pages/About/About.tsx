@@ -12,7 +12,7 @@ AOS.init()
 
 const page = () => {
     return (
-        <div data-aos='fade-down'>
+        <div data-aos='fade-down' className='container mx-auto'>
             <AboutHero />
             <Sixbox />
             <Performance />

@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 AOS.init()
 function TeamRight({ src, title, bio }: { src: string, title: string, bio: string }) {
     return (
-        <div data-aos='zoom-in-left' className='relative group'>
+        <div data-aos='zoom-in-left' className='relative group mb-24 lg:mb-0'>
             <div>
                 <img
                     className='rounded-lg'

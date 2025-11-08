@@ -8,7 +8,7 @@ function SixCard() {
     const cardtile = ["Best Prices & Offers", 'Wide Assortment', 'Free Delivery', 'Easy Returns', '100% Satisfaction', 'Great Daily Deal']
 
     return (
-        <div className='grid grid-cols-3   gap-8 py-16'>
+        <div className='grid lg:grid-cols-3   gap-8 py-16'>
             {cardtile.map((item: string, idx: number) => (
                 <div
                 data-aos='zoom-in-up'
