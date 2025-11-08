@@ -9,7 +9,7 @@ export default function Loader() {
         setOpen(true);
         setTimeout(() => {
             setOpen(false)
-        }, 500);
+        }, 1000);
     }, [])
 
 
