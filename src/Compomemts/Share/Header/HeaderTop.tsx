@@ -1,7 +1,15 @@
 import { NavLink } from "react-router";
-
+import useLang from "../useLang";
+import useCurrence from "../useCurrence";
+type langProps ={
+    name:string
+}
 
 function HeaderTop() {
+    const {lang} = useLang()
+    const {currency} = useCurrence()
+   const  key = Object.keys(currency)
+    
     const data = [
         {
             name: "About Us",
@@ -40,8 +48,28 @@ function HeaderTop() {
                 </div>
                 <div className="text-sm flex items-center gap-5  text-gray-600">
                     <p className="border-r border-r-gray-300 pr-3">Need help! Call Us: <span className="text-green-500 font-semibold">+880 160839202</span></p>
-                    <p className="border-r border-r-gray-300 pr-3">English <i className="fas fa-angle-down"></i></p>
-                    <p>USD <i className="fas fa-angle-down"></i></p>
+                    <div className="border-r border-r-gray-300 pr-3">
+                        <select 
+                        className="outline-none "
+                        name="" id="">
+                            <option>English</option>
+                            {
+                                lang.map((item:langProps, idx:number)=>(
+                                    <option key={idx} value={item.name}>{item.name}</option>
+                                ))
+                            }
+                        </select>
+                    </div>
+                    <select
+                    className="outline-none"
+                     name="" id="">
+                        <option value="">BDT</option>
+                        {
+                             key.map((item, key)=>(
+                                <option key={key} value={item}>{item}</option>
+                            ))
+                        }
+                    </select>
                 </div>
             </div>
         </div>
@@ -49,3 +77,4 @@ function HeaderTop() {
 }
 
 export default HeaderTop
+{/* <p className="">English <i className="fas fa-angle-down"></i></p> */ }
