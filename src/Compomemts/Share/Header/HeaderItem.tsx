@@ -28,7 +28,7 @@ function HeaderItem() {
         <div className="container mx-auto py-6 px-4 flex  sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex items-center w-full sm:w-auto justify-between">
                 <div className="lg:w-36 w-28">
-                    <img src="/logo.svg" alt="" />
+                    <p className="text-4xl font-[quicksand] font-semibold">Asad<span className="text-xl text-green-700">uzzaman</span></p>
                 </div>
                 <div className="sm:hidden">
                 </div>

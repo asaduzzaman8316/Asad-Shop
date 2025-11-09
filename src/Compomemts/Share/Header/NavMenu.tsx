@@ -56,10 +56,6 @@ function NavMenu({ mobile, setMobile }: { mobile?: boolean, setMobile?: React.Di
 
     return (
         <div className='hidden lg:flex items-center justify-between gap-6 font-[quicksand] font-semibold'>
-            <div className='flex items-center gap-2'>
-                <i className='fab fa-firefox-browser text-[#3BB77E]'></i>
-                <p>Deals</p>
-            </div>
             <div className='flex items-center gap-6 pr-4'>
                 {
                     menus.map((item, idx) => (
