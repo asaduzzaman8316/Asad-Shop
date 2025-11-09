@@ -10,6 +10,7 @@ import Shoop from './Pages/Shop/Shoop.tsx';
 import SingleProduct from './Compomemts/Share/SingleProduct/SingleProduct.tsx';
 import AddtoCart from './Pages/Add To Cart/AddtoCart.tsx';
 import No404Page from './Compomemts/Share/No404Page.tsx';
+import WishlistContainer from './Pages/Wishlist/WishlistContainer.tsx';
 
 const router = createBrowserRouter([
     {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
             {
                 path: '*',
                 element: <No404Page />
+            },
+            {
+                path: '/wishlist',
+                element: <WishlistContainer />
             }
 
         ]

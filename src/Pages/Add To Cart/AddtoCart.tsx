@@ -10,6 +10,8 @@ import { confirmAlert } from 'react-confirm-alert';
 import "react-confirm-alert/src/react-confirm-alert.css";
 import { productIdEmpty, singleProductDelete } from '../../Cart/counterSlice';
 import { FaArrowLeft } from 'react-icons/fa';
+import SubScribe from '../../Compomemts/Share/Subscribe';
+import LastService from '../../Compomemts/Share/LastService';
 
 type ProductData = {
     id: number,
@@ -55,7 +57,6 @@ function AddtoCart() {
             )
         )
     }
-    console.log(cartItems)
     function deleteAll() {
         confirmAlert({
             title: "Confirm to Delete All",
@@ -72,7 +73,7 @@ function AddtoCart() {
         });
     }
 
-    function deleteOne(id: number, quantity:number) {
+    function deleteOne(id: number, quantity: number) {
         confirmAlert({
             title: "Confirm to Delete This One",
             message: "Are you sure to do this.",
@@ -139,7 +140,7 @@ function AddtoCart() {
                                         <h1
                                             onClick={() => navigate(`/shop/${item.id}`)}
                                             className='font-semibold text-xs pt-2 lg:pt-0 lg:text-base hover:text-yellow-500 text-gray-700'>{item.name}</h1>
-                                            <RaringWithP rating={item.rating} />
+                                        <RaringWithP rating={item.rating} />
                                     </div>
                                 </div>
                             </div>
@@ -235,6 +236,8 @@ function AddtoCart() {
                     </div>
                 </div>
             </div>
+            <SubScribe src='/banner-13.png' />
+            <LastService />
         </div >
     )
 }
