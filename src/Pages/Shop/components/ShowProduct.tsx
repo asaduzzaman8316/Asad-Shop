@@ -1,9 +1,13 @@
 
+import { useNavigate } from 'react-router'
 import RaringWithP from '../../../Compomemts/Share/RaringWithP'
 
-function ShowProduct({ src, title, currentPrice }: { src: string, title: string, currentPrice: number }) {
+function ShowProduct({id, src, title, currentPrice }: {id:number, src: string, title: string, currentPrice: number }) {
+    const  navigate = useNavigate()
     return (
-        <div className='flex items-center gap-2 border-b border-b-gray-200 py-2'>
+        <div
+        onClick={()=> navigate(`/shop/${id}`)}
+         className='flex items-center gap-2 border-b border-b-gray-200 py-2'>
             <img
             className='w-26 border border-gray-100 rounded-md'
              src={src} alt="" />

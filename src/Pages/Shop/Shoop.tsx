@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+
 import LastService from '../../Compomemts/Share/LastService'
 import SubScribe from '../../Compomemts/Share/Subscribe'
 import DealsOfDay from '../../Home/DealsOfDay/DealsOfDay'
@@ -8,9 +8,11 @@ import Card from './components/Card'
 import Category from './components/Category'
 import FillByPrice from './components/FillByPrice'
 import NewProduct from './components/NewProduct'
+import { useSelector } from 'react-redux'
+import type { RootState } from '../../Redux/store'
 
 function Shoop() {
-    const [cid, setCid] = useState<number>(0)
+    const cid = useSelector((state: RootState) => state.counter.categoryId)
     return (
         <div className='container mx-auto'>
             <title>Asad Mart | Shop</title>
@@ -27,7 +29,7 @@ function Shoop() {
                     </div>
                 </div>
                 <div className='lg:col-span-1 col-span-6 mt-8  space-y-8'>
-                    <Category setCid={setCid} />
+                    <Category />
                     <FillByPrice />
                     <NewProduct />
                     <Card />

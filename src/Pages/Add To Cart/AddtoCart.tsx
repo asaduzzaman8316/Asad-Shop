@@ -55,6 +55,7 @@ function AddtoCart() {
             )
         )
     }
+    console.log(cartItems)
     function deleteAll() {
         confirmAlert({
             title: "Confirm to Delete All",
@@ -71,14 +72,14 @@ function AddtoCart() {
         });
     }
 
-    function deleteOne(id: number) {
+    function deleteOne(id: number, quantity:number) {
         confirmAlert({
             title: "Confirm to Delete This One",
             message: "Are you sure to do this.",
             buttons: [
                 {
                     label: "Yes",
-                    onClick: () => dispatch(singleProductDelete(id))
+                    onClick: () => dispatch(singleProductDelete({ id, quantity }))
                 },
                 {
                     label: "No"
@@ -164,7 +165,7 @@ function AddtoCart() {
                                         ${(item.currentPrice * item.quantity).toFixed(2)}
                                     </div>
                                     <div
-                                        onClick={() => deleteOne(item.id)}
+                                        onClick={() => deleteOne(item.id, item.quantity)}
                                         className='cursor-pointer text-gray-600 hover:text-red-500 p-2'
                                     >
                                         <RiDeleteBin6Line />

@@ -1,20 +1,22 @@
 import { useNavigate } from "react-router"
 import useData from "../../../Compomemts/Share/useData"
+import { setCategoryId } from "../../../Cart/counterSlice"
+import { useDispatch } from "react-redux"
 
-interface CategoryProps {
-    setCid: React.Dispatch<React.SetStateAction<number>>
-}
+
 type data = {
     id: number,
     name: string,
     totalItems: number
 }
-const Category: React.FC<CategoryProps> = ({ setCid }) => {
-    const {categories}= useData()
+const Category = () => {
+    const { categories } = useData()
     const navigate = useNavigate()
+    const dispatch = useDispatch()
+
 
     function handlerClick(e: number) {
-        setCid(e)
+        dispatch(setCategoryId(e))
         navigate('/shop')
     }
     return (

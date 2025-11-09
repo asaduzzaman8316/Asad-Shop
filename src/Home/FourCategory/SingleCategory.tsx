@@ -1,6 +1,7 @@
 import RaringWithP from "../../Compomemts/Share/RaringWithP"
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import { useNavigate } from "react-router";
 AOS.init()
 type productType = {
     newLabel: string,
@@ -8,11 +9,13 @@ type productType = {
     rating: number,
     currentPrice: number,
     previousPrice: number,
-    shortMsg: string
+    shortMsg: string,
+    id:number
 }
 
 function SingleCategory({ title, products }: { title: string | null, products: productType[] }) {
 
+    const navigate = useNavigate()
 
     const filterProducts = title !== '' && products.filter(item => item.newLabel === title)
 
@@ -23,7 +26,9 @@ function SingleCategory({ title, products }: { title: string | null, products: p
             <div className="space-y-5 mt-10 ">
                 {
                     filterProducts && filterProducts.splice(0, 3).map((item, idx) => (
-                        <div key={idx} className="flex gap-2 items-center w-[95%] hover:-translate-y-1 duration-500 group">
+                        <div
+                        onClick={()=> navigate(`/shop/${item.id}`)}
+                         key={idx} className="flex cursor-pointer gap-2 items-center w-[95%] hover:-translate-y-1 duration-500 group">
                             <img
                                 className="w-36 border border-gray-200 rounded-md"
                                 src={item.image1} alt="" />

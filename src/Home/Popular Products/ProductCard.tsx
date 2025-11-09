@@ -10,6 +10,8 @@ import useData from "../../Compomemts/Share/useData";
 import { Link } from "react-router";
 import Loader from "../../Loader/Loader";
 AOS.init()
+import { setWishlist } from "../../Cart/counterSlice";
+import { useDispatch } from "react-redux";
 type productss = {
     name: string,
     id: number,
@@ -24,17 +26,24 @@ type productss = {
     labelColor: string
 }
 function ProductCard(props: { id?: number }) {
-    const {products, isLoading} = useData()
+    const { products, isLoading } = useData()
+    const dispatch = useDispatch()
+
+
+
+    function handlerWishlist(id: number) {
+        dispatch(setWishlist(id))
+    }
 
     if (isLoading) {
         return (
             <div className="flex justify-center items-center w-full h-screen">
-                <Loader/>
+                <Loader />
             </div>
         )
     }
 
-    const filterProduct = props.id !== 0 ? products.filter((item: productss) => item.categoryId === props.id) : products ;
+    const filterProduct = props.id !== 0 ? products.filter((item: productss) => item.categoryId === props.id) : products;
     return (
         <>
             {
@@ -58,15 +67,18 @@ function ProductCard(props: { id?: number }) {
 
                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 sm:w-3/5 opacity-0 group-hover:opacity-100 transition-all duration-300">
                             <div className="flex justify-between bg-white border border-green-200 rounded-lg divide-x divide-green-100 shadow-lg">
-                                <button className="flex-1 p-3 text-green-500 hover:text-yellow-500 transition-colors duration-200">
+                                <button
+                                    onClick={() => handlerWishlist(item.id)}
+                                    className="flex-1 p-3 cursor-pointer text-green-500 hover:text-yellow-500 transition-colors duration-200">
                                     <FaRegHeart className="w-5 h-5 mx-auto" />
                                 </button>
                                 <button className="flex-1 p-3 text-green-500 hover:text-yellow-500 transition-colors duration-200">
                                     <TbArrowsCross className="w-5 h-5 mx-auto" />
                                 </button>
-                                <button className="flex-1 p-3 text-green-500 hover:text-yellow-500 transition-colors duration-200">
+                                <Link to={`/shop/${item.id}`}
+                                    className="flex-1 p-3 cursor-pointer text-green-500 hover:text-yellow-500 transition-colors duration-200">
                                     <GrView className="w-5 h-5 mx-auto" />
-                                </button>
+                                </Link>
                             </div>
                         </div>
 

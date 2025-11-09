@@ -14,7 +14,8 @@ type categoriesType = {
 }
 
 function HeaderItem() {
-    const count = useSelector((state: RootState) => state.counter.value)
+    const Cartcount = useSelector((state: RootState) => state.counter.value)
+    const Wishlistcount = useSelector((state: RootState) => state.counter.wishlist)
     const [location, setLocation ] = useState([]) 
     useEffect(() => {
         async function getData() {
@@ -52,8 +53,8 @@ function HeaderItem() {
                     </div>
                 </div>
                 <div className="flex items-center gap-4">
-                    <Sidelogo nav="/wishlist" Icon={FaRegHeart} name="Wishlist" count={count} />
-                    <Sidelogo nav="/addtocart" Icon={IoCartOutline} name="Cart" count={count} />
+                    <Sidelogo nav="/wishlist" Icon={FaRegHeart} name="Wishlist" count={Wishlistcount} />
+                    <Sidelogo nav="/addtocart" Icon={IoCartOutline} name="Cart" count={Cartcount} />
                     <Sidelogo nav="/compare" Icon={FaRegUser} name="Account" />
                 </div>
             </div>
