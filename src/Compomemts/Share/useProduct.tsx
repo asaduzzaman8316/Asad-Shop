@@ -10,7 +10,7 @@ function useProduct() {
         }
         getData();
     }, [])
-
+    
     return  {description }
 }
 

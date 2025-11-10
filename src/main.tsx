@@ -11,6 +11,7 @@ import SingleProduct from './Compomemts/Share/SingleProduct/SingleProduct.tsx';
 import AddtoCart from './Pages/Add To Cart/AddtoCart.tsx';
 import No404Page from './Compomemts/Share/No404Page.tsx';
 import WishlistContainer from './Pages/Wishlist/WishlistContainer.tsx';
+import Vendor from './Pages/Vendor/Vendor.tsx';
 
 const router = createBrowserRouter([
     {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
             {
                 path: '/wishlist',
                 element: <WishlistContainer />
+            },
+            {
+                path: '/vendors',
+                element: <Vendor />
             }
 
         ]
