@@ -21,7 +21,7 @@ function HeaderTop() {
         },
         {
             name: "Wishilist",
-            nav: '/wishilist'
+            nav: '/wishlist'
         },
         {
             name: "Order Tracking",

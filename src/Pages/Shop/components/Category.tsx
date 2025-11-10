@@ -1,7 +1,8 @@
 import { useNavigate } from "react-router"
 import useData from "../../../Compomemts/Share/useData"
 import { setCategoryId } from "../../../Cart/counterSlice"
-import { useDispatch } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
+import type { RootState } from "../../../Redux/store"
 
 
 type data = {
@@ -10,6 +11,7 @@ type data = {
     totalItems: number
 }
 const Category = () => {
+    const CaregoryId = useSelector((state: RootState) => state.counter.categoryId)
     const { categories } = useData()
     const navigate = useNavigate()
     const dispatch = useDispatch()
@@ -31,7 +33,7 @@ const Category = () => {
                             <div
                                 key={idx}
                                 onClick={() => handlerClick(item.id)}
-                                className='flex justify-between border hover:scale-105 duration-500 cursor-pointer border-gray-200 px-4 py-2 rounded-md '>
+                                className={`flex justify-between border hover:scale-105 duration-500 cursor-pointer border-gray-200 px-4 py-2 rounded-md ${CaregoryId === item.id && 'scale-105 border-green-600 '}`} >
                                 <div className="flex items-center text-start gap-5">
                                     <img
                                         width={25}
