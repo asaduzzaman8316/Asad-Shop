@@ -5,6 +5,11 @@ import useProduct from '../../Compomemts/Share/useProduct';
 import RaringWithP from '../../Compomemts/Share/RaringWithP';
 import { IoLocationOutline } from 'react-icons/io5';
 import { FaHeadset } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import Loader from '../../Loader/Loader';
+import useData from '../../Compomemts/Share/useData';
+AOS.init()
 interface vendordata {
     name: string,
     image: string,
@@ -22,13 +27,22 @@ interface ProductHook {
 }
 function Vendor() {
     const { description } = useProduct() as ProductHook
+    const {isLoading} = useData()
+
+    if (isLoading) {
+        return (
+            <div className="flex justify-center items-center w-full h-screen">
+                <Loader />
+            </div>
+        )
+    }
     return (
         <div>
             <div className='container mx-auto px-4 lg:px-0 py-16'>
                 <div className='grid lg:grid-cols-5 gap-5 items-center justify-between'>
                     {
-                        description.map(item => (
-                            <div key={item.id}  className="space-y-3 border border-gray-200 rounded-md p-2 h-60 text-gray-600">
+                        description && description.map(item => (
+                            <div data-aos='fade-up' key={item.id} className="space-y-3 border border-gray-200 rounded-md p-2 h-60 text-gray-600">
                                 <div className="flex gap-3 items-center">
                                     <img
                                         className="w-12 rounded-full"
@@ -52,7 +66,7 @@ function Vendor() {
                     }
                 </div>
             </div>
-            <SubScribe src='' />
+            <SubScribe src='/banner-9.png' />
             <LastService />
         </div>
     )

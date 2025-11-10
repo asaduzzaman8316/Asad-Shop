@@ -20,17 +20,10 @@ function NavMenu({ mobile, setMobile }: { mobile?: boolean, setMobile?: React.Di
             name: "Vendors",
             nvlink: "/vendors"
         },
-        {
-            name: 'Mega Menu',
-            nvlink: "/megamenu"
-        },
+        
         {
             name: 'Blog',
             nvlink: '/blog'
-        },
-        {
-            name: "Pages",
-            nvlink: '/pages'
         },
         {
             name: "Contact",

@@ -12,6 +12,8 @@ import AddtoCart from './Pages/Add To Cart/AddtoCart.tsx';
 import No404Page from './Compomemts/Share/No404Page.tsx';
 import WishlistContainer from './Pages/Wishlist/WishlistContainer.tsx';
 import Vendor from './Pages/Vendor/Vendor.tsx';
+import Blog from './Pages/Blog/Blog.tsx';
+import SingleBlog from './Compomemts/Share/SingleBlog/SingleBlog.tsx';
 
 const router = createBrowserRouter([
     {
@@ -49,6 +51,14 @@ const router = createBrowserRouter([
             {
                 path: '/vendors',
                 element: <Vendor />
+            },
+            {
+                path: '/blog',
+                element: <Blog />
+            },
+            {
+                path: '/blog/:id',
+                element: <SingleBlog />
             }
 
         ]
